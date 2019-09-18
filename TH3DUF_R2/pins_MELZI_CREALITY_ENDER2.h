@@ -56,6 +56,9 @@
 #define DOGLCD_CS 28 // DOG CS
 #define LCD_SDSS        31 
 
+// v1.1.5 fix
+#define DOGLCD_SCK 27
+#define DOGLCD_MOSI 17
 
 // Alter timing for graphical display
 #ifndef ST7920_DELAY_1
