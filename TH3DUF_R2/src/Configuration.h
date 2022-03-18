@@ -277,6 +277,7 @@
 // Creality Ender 2 Options - Select 'Sanguino 1284p' from Tools > Board
 //===========================================================================
 #define ENDER2
+#define FAN_FIX
 
 // If you are using our EZOut V2 (connects to the LCD header & connect the 2 pin connector to the "Check" header to the right of the LCD connection) filament sensor kit please follow the install guide
 // and then uncomment the #define EZOUTV2_ENABLE line below. Do NOT ever connect our filament sensor without the supplied adapter board.
@@ -297,6 +298,7 @@
 
 // Use Ender Bootscreeen instead of TH3D
 //#define ENDER_BOOT
+
 
 //===========================================================================
 // Creality Ender 3 Options - Select 'Sanguino 1284p' from Tools > Board
