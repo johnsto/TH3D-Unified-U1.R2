@@ -318,7 +318,7 @@
 //#define CUSTOM_PROBE
 
 // TMC2208 Creality Board Setting - uncomment this to set the driver type if you are using the TMC Creality board
-//#define TMC_CREALITY_BOARD
+#define TMC_CREALITY_BOARD
 
 //=================================================================================================
 // README - THE BELOW SETTINGS ARE ONLY FOR USING THE CR-10S DUAL BOARD WITH THE ENDER 3
@@ -850,10 +850,10 @@
 // MISC --------------------------------------------
 
 // If you have a 5015 fan that whines when under 100% speed uncomment the below line.
-//#define FAN_FIX
+#define FAN_FIX
 
 // Use your own printer name
-//#define USER_PRINTER_NAME "CHANGE ME" 
+#define USER_PRINTER_NAME "Ender-2-johnsto"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
 //#define SLOWER_HOMING
@@ -864,7 +864,7 @@
 //#define TM3D_BOOT
 
 // Disable Bootscreen completely
-//#define DISABLE_BOOT
+#define DISABLE_BOOT
 
 //===========================================================================
 //****************** COMMUNITY REQUESTED FEATURES ***************************
@@ -947,5 +947,12 @@
 #include "Configuration_backend.h"
 
 #define UNIFIED_VERSION "TH3D U1.R2.16"
+
+// johnsto - Ender 2 LCD on v1.1.5 fix
+#define DOGLCD_SCK 27
+#define DOGLCD_MOSI 17
+
+// johnsto - calibration results
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 95 }
 
 #endif // CONFIGURATION_H
